@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Text Box</title>
+	<link rel="stylesheet" type="text/css" href="TextBox.css">
+</head>
+<body>
+
+	<h1 align="center" class="heading">TEXT BOX</h1>
+	<div class="container" align="center">
+		<form class="textboxform">
+			<label>Enter your text below</label>
+			<br><br>
+			<textarea id="text" rows="10" cols="70" onkeyup="updateInfo()" autofocus></textarea>
+			<br><br>
+			<button type="button" onclick="transformUpperCase()">UPPERCASE</button>
+			<button type="button" onclick="transformLowerCase()">LOWERCASE</button>
+			<button type="button" onclick="findText()">FIND</button>
+			<button type="button" onclick="changeColor()">CHANGE</button>
+			<button type="button" onclick="textUnderline()">UNDERLINE</button>
+			<button type="button" onclick="copyText()">COPY</button>
+			<button type="button" onclick="changeFontFamily()">FONT FAMILY</button>
+			<button type="button" onclick="alignLeft()">ALIGN LEFT</button>
+			<button type="button" onclick="alignCenter()">ALIGN CENTER</button>
+			<button type="button" onclick="alignRight()">ALIGN RIGHT</button>
+			<h2 id="textinfo">This text contains 0 words and 0 characters</h2>
+		</form>
+	</div>
+
+	<script type="text/javascript" src="TextBox.js"></script>
+
+</body>
+</html>
+
+

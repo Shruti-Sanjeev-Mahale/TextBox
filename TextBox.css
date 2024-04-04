@@ -1,0 +1,28 @@
+*{
+	padding: 10px;
+	margin: 0px;
+	font-size: 20px;
+	font-family: sans-serif;
+}
+.heading
+{
+	font-weight: bolder;
+	font-family: Arial Black;
+	font-size: 35px;
+	color: royalblue;
+}
+.textboxform label
+{
+	color: orangered;
+	font-weight: bolder;
+}
+.textboxform button
+{
+	color: white;
+	background-color: orangered;
+	border: none;
+	outline: none;
+	border-radius: 10px;
+	cursor: pointer;
+
+}
